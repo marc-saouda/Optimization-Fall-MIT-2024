@@ -13,20 +13,6 @@ This repository contains my implementations of **optimization problems** from th
 - **Network Flow Optimization** (Transportation, facility location)
 - **Constrained and Non-Constrained Non-Linear Optimization** (Multimodal learning)
 
----
-
-## **📂 Repository Structure**
-```
-optimization-course-MIT/
-├── Integer_Optimization/                      # Integer optimization & waste management
-│   ├── waste_management.jl
-├── Stochastic_Optimization/                      # Robust & stochastic optimization
-│   ├── robust_optimization.jl
-├── Linear_Optimization/          # Linear optimization & energy optimization
-│   ├── energy_optimization.jl
-├── LICENSE                   # MIT License
-└── README.md                 # This file
-```
 
 ---
 
@@ -55,7 +41,7 @@ optimization-course-MIT/
 | Robust Network Flow | Robust Linear Optimization | Minimize worst-case cost |
 | Cloud Computing | Linear Programming (LP) | Minimize energy consumption |
 
-Each model is implemented in **Julia (JuMP) or Python (Gurobi)**.
+Each model is implemented in **Julia (JuMP, Gurobi)**.
 
 ---
 
